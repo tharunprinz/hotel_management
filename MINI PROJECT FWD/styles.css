@@ -1,0 +1,76 @@
+/* styles.css */
+/* Your previous CSS styles */
+
+/* Hero Section */
+#hero {
+    background: url('https://www.forbesindia.com/media/images/2023/Jun/img_209943_ozenreservebolifushi_shutterstock_bg.jpg');
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff6f00;
+}
+
+/* Room Section */
+#rooms {
+    padding: 100px 0;
+}
+
+.room {
+    margin-bottom: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.room h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.room p {
+    font-weight: bold;
+    color: #ff8c00;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
